@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px;
+    margin-left: 155px;
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+ul a {
+    text-decoration: none;
+     color: #000;
+    border-left: 1px solid #f7f7f7;
+    padding: 10px;
+    }
+ ul a:hover {
+    color: #000;
+    text-decoration: underline;
+    }
+ body, html {
+      height: 100%;
+    }
+
+    .fundo {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../imagens/imagem1.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.5; /* Transparência */
+      z-index: -1;
+    }
+    .conteudo {
+      position: relative;
+      z-index: 1;
+      color: white;
+      padding: 40px;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+        height: 200px;
+        width: 100%;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        color: #000;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    header h1 {
+        padding-bottom: 40px;
+    }
+
+    .car div {
+        width: 380px;
+        height: 480px;
+        color: #000;
+        background-color: #fff;
+        border-radius: 15px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        float: left;
+    }
+
+    .car div p {
+      
+        font-size: 1.1em;
+    }
+    .car div img {
+        padding: 0 0 5px 30px;
+    }
+
+    .car div button {
+        margin-top: 15px;
+    }
+
+    .car div button:hover {
+        background: #fff;
+        color: #0056b3;
+        border: 1px solid #0056b3;
+        border-radius: 4px;
+    }
+
+#container-rodape {
+    background: #fff;
+    padding: 20px;
+}
+
+#rodape {
+    width: 100%;
+    margin: 0 40%;
+    color: #000;
+}
